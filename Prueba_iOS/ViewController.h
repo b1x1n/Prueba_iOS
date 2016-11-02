@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController{
+    IBOutlet UILabel* Etiqueta1;
+    IBOutlet UITextField* text;
+    
+}
+-(IBAction)click:(id)sender;
 
 @end
 
